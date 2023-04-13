@@ -73,9 +73,11 @@ app.post('/signup',(req,res)=>{
     var address=req.body.address;
     var password=req.body.password;
     var value=new signup_model({"username":uname,"phonenum":phone,"address":address,"password":password});
-    value.save(function(){
-        done();
+    value.save();
+    res.redirect(301,'/login')
     });
+app.get('/services',function(req,res){
+    res.render('pages/services');
 })
 app.post('/login',async(req,res)=>{
         try{

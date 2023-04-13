@@ -5,7 +5,9 @@
         <script src="https://kit.fontawesome.com/ed3124efd0.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
-
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
         <style>
             body{margin:0;}
           #obj1{padding:2px;margin-top:0;border:2px none;width:100%;height:2cm}
@@ -76,7 +78,7 @@ txt2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
         </style>
     </head>
     <body>
-       <div class="container-fluid">
+       <!-- <div class="container-fluid">
         <div id="obj1">
             <h3 id="obj1h3">The Wheel Deal</h1>
             <a id="obj1a1" href="/login">Login</a>
@@ -86,13 +88,69 @@ txt2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
             <a id="obj1a5" href="www.facebook.com"><img src="/images/fb.png" height="25px" width="25px"></a>
             <a id="obj1a6" href="www.instagram.com"><img src="/images/insta.png" height="25px" width="25px"></a>
             <a id="obj1a7" href="www.linkedin.com"><img src="/images/linkedin.png" height="25px" width="25px"></a>
+        </div> -->
+        <div class="container-fluid bg-dark py-3 px-lg-5 d-none d-lg-block">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body pr-3" href=""><i class="fa fa-phone-alt mr-2"></i>8789681146</a>
+                        <span class="text-body">|</span>
+                        <a class="text-body px-3" href=""><i class="fa fa-envelope mr-2"></i>wheeldeal@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Topbar End -->
+    
+    
+        <!-- Navbar Start -->
+        <div class="container-fluid position-relative nav-bar p-0">
+            <div class="position-relative px-lg-5" style="z-index: 9;">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                    <a href="" class="navbar-brand">
+                        <h1 class="text-uppercase text-primary mb-1">The Wheel Deal</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto py-0">
+                            <a href="/login" class="nav-item nav-link">Login</a>
+                            <a href="/" class="nav-item nav-link">About</a>
+                            <a href="/services" class="nav-item nav-link">Service</a>
+                            <a href="/team" class="nav-item nav-link">The Team</a>
+                            <!-- <a href="/testimonial" class="nav-item nav-link">Testimonial</a> -->
+                            <a href="/contact" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div><br><br>
         <div id="obj2">
             <h2 id="obj2h2">Plan your journey for a <txt>limitless</txt><br> adventure.</h2>
             <a href="/contact"><button id="obj2b1">Get in touch</button></a>
             <a href="/team"><button id="obj2b2">Meet the team</button></a>
         </div>
-        <h2 id="obj3h2">RENT YOUR CAR NOW<txt1>!</txt1></h2>
+        <!-- <h2 id="obj3h2">RENT YOUR CAR NOW<txt1>!</txt1></h2> -->
         <!--<div id="obj3">
             <form class="nosubmit">
                 <input class="nosubmit" type="search" id="f1" placeholder="Pick-up Location">
@@ -104,6 +162,28 @@ txt2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
                 <button type="submit" class="nosubmit" id="f3">Search</button>
               </form>
          </div>-->
+        <!-- <div id="obj4">
+            <div id="obj4i1" style="float:left;margin-left: 20px;border:2px none;padding:10px;margin-top:30px">
+           <img height="70px" width="70px"src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/desktop/usp_calendar@2x.png">
+           <br>
+            <txt2 style="font-weight:800;font-size:18;">Flexible rentals</txt2><br>
+            <text3>Cancel or change most bookings for free up to<br>48 hours before pick-up</text3>
+            </div>
+            <div id="obj4i1" style="float:left;margin-left:80px;border:2px none;padding:10px;margin-top:30px">
+                <img height="70px" width="70px"src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/desktop/usp_magnifier@2x.png">
+                <br>
+                 <txt2 style="font-weight:800;font-size:18;">No hidden fees</txt2><br>
+                 <text3>Know exactly what you’re paying</text3>
+            </div>
+            <div id="obj4i1" style="float:left;margin-left:80px;border:2px none;padding:10px;margin-top:30px">
+                    <img height="70px" width="70px"src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/desktop/usp_wallet@2x.png">
+                    <br>
+                     <txt2 style="font-weight:800;font-size:18;">Price match guarantee</txt2><br>
+                     <text3>Found the same deal for less? We’ll match the price.</text3>
+            </div>
+           
+        </div>
+        </div> -->
         <div id="obj4">
             <div id="obj4i1" style="float:left;margin-left: 20px;border:2px none;padding:10px;margin-top:30px">
            <img height="70px" width="70px"src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/desktop/usp_calendar@2x.png">
@@ -126,5 +206,120 @@ txt2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
            
         </div>
         </div>
+        <div class="container-fluid p-0" style="margin-bottom: 90px;">
+            <div id="header-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="images/carousel-1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase mb-md-3">Rent A Car</h4>
+                                <h1 class="display-1 text-white mb-md-4">Best Rental Cars In Your Location</h1>
+                                <a href="/signup" class="btn btn-primary py-md-3 px-md-5 mt-2">Reserve Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="images/carousel-2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase mb-md-3">Rent A Car</h4>
+                                <h1 class="display-1 text-white mb-md-4">Quality Cars with Unlimited Miles</h1>
+                                <a href="/signup" class="btn btn-primary py-md-3 px-md-5 mt-2">Reserve Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                    <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                        <span class="carousel-control-prev-icon mb-n2"></span>
+                    </div>
+                </a>
+                <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                    <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                        <span class="carousel-control-next-icon mb-n2"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- <div id="obj3">
+            <form class="nosubmit">
+                <input class="nosubmit" type="search" id="f1" placeholder="Pick-up Location">
+        
+                <input class="nosubmit" type="text" class="fas" id="f2" placeholder="&#128198; Pick-up Date"  onfocus="(this.type='date')"   style="font-family:Arial, FontAwesome">
+                <input class="nosubmit" type="text" id="f2" placeholder="&#xf017; Time"  onfocus="(this.type='time')" onblur="(this.type='text')" style="font-family:Arial, FontAwesome">
+                <input class="nosubmit" type="text" id="f2" placeholder="&#128198; Drop-off Date"  onfocus="(this.type='date')" style="font-family:Arial, FontAwesome">
+                <input class="nosubmit" type="text" id="f2" placeholder="&#xf017; Time"  onfocus="(this.type='time')"  onblur="(this.type='text')" style="font-family:Arial, FontAwesome">
+                <button type="submit" class="nosubmit" id="f3">Search</button>
+              </form>
+         </div> -->
+         <div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+            <div class="row pt-5">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-white mr-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-white mr-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope text-white mr-3"></i>info@example.com</p>
+                    <h6 class="text-uppercase text-white py-2">Follow Us</h6>
+                    <div class="d-flex justify-content-start">
+                        <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-dark btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-uppercase text-light mb-4">Usefull Links</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Private Policy</a>
+                        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Term & Conditions</a>
+                        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>New Member Registration</a>
+                        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Affiliate Programme</a>
+                        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Return & Refund</a>
+                        <a class="text-body" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Help & FQAs</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-uppercase text-light mb-4">Car Gallery</h4>
+                    <div class="row mx-n1">
+                        <div class="col-4 px-1 mb-2">
+                            <a href=""><img class="w-100" src="images/gallery-1.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4 px-1 mb-2">
+                            <a href=""><img class="w-100" src="images/gallery-2.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4 px-1 mb-2">
+                            <a href=""><img class="w-100" src="images/gallery-3.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4 px-1 mb-2">
+                            <a href=""><img class="w-100" src="images/gallery-4.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4 px-1 mb-2">
+                            <a href=""><img class="w-100" src="images/gallery-5.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4 px-1 mb-2">
+                            <a href=""><img class="w-100" src="images/gallery-6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-uppercase text-light mb-4">Newsletter</h4>
+                    <p class="mb-4">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                    <div class="w-100 mb-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-dark border-dark" style="padding: 25px;" placeholder="Your Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary text-uppercase px-3">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                    <i>Lorem sit sed elitr sed kasd et</i>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
+            <p class="mb-2 text-center text-body">&copy; <a href="#">The Wheel Deal</a>. All Rights Reserved.</p>				
+        </div>
+    
     </body>
 </html>
